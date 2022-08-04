@@ -1,5 +1,5 @@
 /**
- * gcc preload.c -fPIC -shared -m{arch} -s -o preload.so
+ * gcc preload.c -fPIC -shared -nostartfiles -m{arch} -s -o preload.so
  */
 #define  _GNU_SOURCE
 #include <stdlib.h>
